@@ -6,7 +6,7 @@ token = '6562731087:AAEPgWDoOPt6p3z2GH1pg0IBCPr0PFvRzSU'
 chatId = '708789635'
 
 bot = telebot.TeleBot(token)
-photo_url = 'https://risovach.ru/upload/2019/09/mem/dzheyson--stethem_219834170_orig_.jpg'
+photo_url = 'https://uznayvse.ru/images/stories2016/uzn_1473155502.jpg'
 
 @bot.message_handler(commands=['start'])
 def hello(message):
@@ -17,7 +17,7 @@ def hello(message):
 @bot.message_handler(content_types=['text'])
 def main_menu(message):
     if message.text == 'Получить Стэтхема':
-        bot.send_photo(message.chat.id, photo=photo_url, caption='Если закрыть глаза становится темно\n(c)Джейсон Стэтхем')
+        bot.send_photo(message.chat.id, photo=photo_url, caption='If you close your eyes, it gets dark\n(c)Jason Statham')
 
 # Функция для отправки уведомления
 @bot.message_handler(content_types=['text'])
