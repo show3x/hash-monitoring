@@ -15,9 +15,7 @@ if __name__ == "__main__":
     telegram_bot_thread.start()
 
     # Запускаем графический интерфейс
-    gui_thread = threading.Thread(target=gui.run_gui)
-    gui_thread.daemon = True
-    gui_thread.start()
+    gui.run_gui()
 
     # Основной поток
     while True:
