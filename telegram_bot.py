@@ -1,11 +1,10 @@
 import telebot
 from telebot import types
+import config
 
-# для работы телеграм бота
-token = ''
-chatId = '708789635'
+chatId = telebot.TeleBot(config.chatId)
 
-bot = telebot.TeleBot(token)
+bot = telebot.TeleBot(config.token)
 photo_url = 'https://uznayvse.ru/images/stories2016/uzn_1473155502.jpg'
 
 @bot.message_handler(commands=['start'])
@@ -29,4 +28,3 @@ def run_telegram_bot():
 
 if __name__ == '__main__':
     run_telegram_bot()
-
