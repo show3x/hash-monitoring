@@ -2,7 +2,7 @@ import telebot
 from telebot import types
 
 # для работы телеграм бота
-token = '6562731087:AAEPgWDoOPt6p3z2GH1pg0IBCPr0PFvRzSU'
+token = ''
 chatId = '708789635'
 
 bot = telebot.TeleBot(token)
