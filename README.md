@@ -1,6 +1,6 @@
 # hash-monitoring
 
-Hello everyone, this is our first project on github. I decided to write a program that will monitor the files you choose to change the hash, if the hash changes, it will send a notification to the computer itself, and you can also add a tg bot https://t.me/notifymsghash_bot which will also send you notifications in case of a hash change. Thank you so much And also in this bot you can get a picture of Statham. To the co-developer for frontend
+Hello everyone, this is our first project on github. I decided to write a program that will monitor the files you choose to change the hash, if the hash changes, it will send a notification to the computer itself, and you can also add a tg bot https://t.me/notifymsghash_bot which will also send you notifications in case of a hash change. Thank you so much And also in this bot you can get a picture of Statham. To the co-developer for frontend.
 
 A program to monitor the change in the hash of the selected file.
 The program is poorly optimized at the moment.
