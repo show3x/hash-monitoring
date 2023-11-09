@@ -5,3 +5,8 @@ Hello everyone, this is my first project on github. I decided to write a program
 A program to monitor the change in the hash of the selected file.
 The program is poorly optimized at the moment.
 The program will be finalized.
+
+
+<h3 align="left">Support:</h3>
+<p><a href="https://www.buymeacoffee.com/sh0w3xyr"> <img align="left" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="sh0w3xyr" /></a></p><br><br>
+<p><a href="https://www.buymeacoffee.com/bacon4141ci"> <img align="left" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="sbacon4141ci" /></a></p><br><br>
